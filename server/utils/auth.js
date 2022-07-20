@@ -34,7 +34,7 @@ module.exports = {
       },
       
     //signToken expects a user object and will add that user's username, email and _id to the token
-  signToken: function({ username, email, _id }) {
+    signToken: function({ username, email, _id }) {
     const payload = { username, email, _id };
 
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
