@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          OG-SNKRS
-        </p>
-        <p>Can you kick it?</p>
-      </header>
-=======
 import React from "react";
 import logo from "../src/assets/images/nike_sneakers-brandlogo.net.png";
 import "./App.css";
@@ -54,7 +41,6 @@ function App() {
               <p>Can you kick it?</p>
             </header>
           </div>
->>>>>>> 0b7787b25717f7fd0638493d681ddbcbf110323a
     </div>
 
     

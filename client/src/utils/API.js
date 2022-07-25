@@ -52,7 +52,19 @@ export const getMe = (token) => {
   
   // make a search to google books api
   // https://www.googleapis.com/books/v1/volumes?q=harry+potter
-  export const searchGoogleBooks = (query) => {
-    return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
+
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '7fd94401d9mshdf1b11802ab2735p1d0e9ejsna5ee8fc24f35',
+      'X-RapidAPI-Host': 'the-sneaker-database.p.rapidapi.com'
+    }
+  };
+  
+  export const searchShoes = (query) => {
+    return fetch(`https://the-sneaker-database.p.rapidapi.com/search?limit=10=${query}`, options)
+    .then(response => response.json())
+    .then(response => console.log(response))
+    .catch(err => console.error(err));;
   };
   
