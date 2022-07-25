@@ -30,7 +30,7 @@ return (
     </a> */}
     {(toggleMenu || screenWidth > 500) && (
         <ul className="nav-list">
-            <li className="nav-items">Search</li>
+            {/* <li className="nav-items">Search</li> */}
             <li className="nav-items">Home</li>
             <li className="nav-items">Shop</li>
             <li className="nav-items">Sign Up</li>

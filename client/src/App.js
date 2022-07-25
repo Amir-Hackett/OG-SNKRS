@@ -2,12 +2,12 @@ import React from "react";
 import logo from "../src/assets/images/nike_sneakers-brandlogo.net.png";
 import "./App.css";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "../src/components/Nav";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
-       <Nav></Nav>
+       <Nav> </Nav>
         
           <div className="App">
             <header className="App-header">
