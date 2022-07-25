@@ -42,6 +42,26 @@ function App() {
             </header>
           </div>
     </div>
+
+    
+    // <ApolloProvider>
+    //   <Router>
+    //     <>
+    //       <Nav />
+    //       <div className="App">
+    //         <header className="App-header">
+    //           <img src={logo} className="App-logo" alt="logo" />
+    //           <p>Can you kick it?</p>
+    //         </header>
+    //       </div>
+    //       <Switch>
+    //       <Route exact path='/' component={SearchShoes} />
+    //       <Route exact path='/saved' component={SavedShoes} />
+    //       <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
+    //       </Switch>
+    //     </>
+    //   </Router>
+    // </ApolloProvider>
     
        
         
