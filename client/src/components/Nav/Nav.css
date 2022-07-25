@@ -1,3 +1,9 @@
+h3 {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
 nav {
     position: fixed;
     top: 0;

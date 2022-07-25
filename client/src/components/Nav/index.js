@@ -1,7 +1,5 @@
 import React, {useState, useEffect } from "react";
 import './Nav.css'
-import SignupForm from "../Signup";
-
 
 function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -25,10 +23,7 @@ function Nav() {
   }, [])
 
 return (
-  <nav>
-    {/* <a data-testid="link" href="/">
-      <h2>OG-SNKRS</h2>
-    </a> */}
+    <nav>
     {(toggleMenu || screenWidth > 500) && (
         <ul className="nav-list">
             {/* <li className="nav-items">Search</li> */}
@@ -39,7 +34,7 @@ return (
         </ul>
         )}
         <button onClick={toggleNav}className="btn">Button</button>
-    </nav>
+    </nav> 
 
 );
 
