@@ -1,4 +1,6 @@
 // route to get logged in user's info (needs the token)
+const API_KEY = process.env.REACT_APP_X_RapidAPI_Key;
+
 export const getMe = (token) => {
     return fetch('/api/users/me', {
       headers: {
@@ -56,7 +58,7 @@ export const getMe = (token) => {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '7fd94401d9mshdf1b11802ab2735p1d0e9ejsna5ee8fc24f35',
+      'X-RapidAPI-Key': API_KEY,
       'X-RapidAPI-Host': 'the-sneaker-database.p.rapidapi.com'
     }
   };
