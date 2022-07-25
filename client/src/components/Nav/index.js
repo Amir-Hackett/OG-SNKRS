@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from "react";
 import './Nav.css'
-import SignupForm from "../Signup/SignupForm";
+import SignupForm from "../Signup";
 
 
 function Nav() {
