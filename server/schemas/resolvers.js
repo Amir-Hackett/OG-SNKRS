@@ -1,6 +1,6 @@
 // set up the resolver that will serve the response for the query defined in 'typeDefs.js' file
-
 const { AuthenticationError } = require('apollo-server-express');
+const { User, Shoe } = require('../models');
 const { signToken } = require('../utils/auth');
 
 //import file from models folder

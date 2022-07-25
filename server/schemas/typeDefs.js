@@ -21,18 +21,18 @@ const typeDefs = gql`
 
   type Shoe {
     shoeId: ID!
-    description: String
-    title: String
+    sku: String
+    brand: String
+    colorway: String
     image: String
-    price: String
+    retailPrice: String
 }
 
 input shoeInput {
     shoeId: String
     description: String
-    title: String
     image: String
-    price: String
+    retailPrice: String
 }
 
   type Mutation {
