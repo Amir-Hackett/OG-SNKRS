@@ -4,9 +4,7 @@ import './Nav.css'
 function Nav(props) {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-  const { setSelectedNav } = props;
   
-
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
@@ -24,13 +22,34 @@ function Nav(props) {
 
   }, [])
 
+  const {
+    setHomeSelected,
+    setShopSelected,
+    setSignUpSelected,
+    setLoginSelected
+} = props
+
+function renderHome() {
+  setShopSelected(false);
+  setHomeSelected(true);
+  setSignUpSelected(false);
+  setLoginSelected(false);
+}
+
+function renderShop() {
+  setShopSelected(true);
+  setHomeSelected(false);
+  setSignUpSelected(false);
+  setLoginSelected(false);
+}
+
 return (
     <nav>
     {(toggleMenu || screenWidth > 500) && (
         <div className="nav-list">
             {/* <li className="nav-items">Search</li> */}
-            <a onClick={()=>setSelectedNav('home')} className="nav-items">Home</a>
-            <a onClick={()=>setSelectedNav('shop')} className="nav-items">Shop</a>
+            <a onClick={renderHome} className="nav-items">Home</a>
+            <a onClick={renderShop} className="nav-items">Shop</a>
             <a className="nav-items">Sign Up</a>
             <a className="nav-items">Log In</a>
         </div>

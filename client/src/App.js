@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 import SearchShoes from './components/pages/SearchShoes';
 import SavedShoes from './components/pages/SavedShoes';
 
-import Home from "./components/pages/Home";
+import Home from "./components/Home";
 import Shop from "./components/Shop"; 
 
 const httpLink = createHttpLink({
@@ -33,11 +33,22 @@ const client = new ApolloClient({
 
 
 function App() {
+  const [homeSelected, setHomeSelected] = useState(false);
+  const [shopSelected, setShopSelected] = useState(false);
+  const [signUpSelected, setSignUpSelected] = useState(false);
+  const [loginSelected, setLoginSelected] = useState(false);
+
   return (
 
     <div>
-       <Nav/>
-       <Home/>
+       <Nav setHomeSelected={setHomeSelected} setShopSelected={setShopSelected} setSignUpSelected={setSignUpSelected} setLoginSelected={setLoginSelected}/>
+       <div>
+        {!shopSelected ? (
+          <Home/>
+        ) : (
+          <Shop/>
+        )}
+       </div>
     </div>
 
     

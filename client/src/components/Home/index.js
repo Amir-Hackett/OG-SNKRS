@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../assets/images/nike_sneakers-brandlogo.net.png';
+import logo from '../../assets/images/nike_sneakers-brandlogo.net.png';
 
 
 function Home() {
