@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 
 import Auth from '../../utils/auth';
-import { searchGoogleBooks } from '../../utils/API';
+import { searchShoes } from '../../utils/API';
 import { saveShoeIds, getSavedShoeIds } from '../../utils/localStorage';
 
 import { useMutation } from '@apollo/client';
@@ -34,7 +34,7 @@ const SearchShoes = () => {
     }
 
     try {
-      const response = await searchGoogleBooks(searchInput);
+      const response = await searchShoes(searchInput);
 
       if (!response.ok) {
         throw new Error('something went wrong!');
