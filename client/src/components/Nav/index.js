@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from "react";
 import './Nav.css'
 
+
 function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -26,10 +27,9 @@ return (
     <nav>
     {(toggleMenu || screenWidth > 500) && (
         <ul className="nav-list">
-            {/* <li className="nav-items">Search</li> */}
-            <li className="nav-items">Home</li>
+            <a href="/" ><li className="nav-items">Home</li></a>
             <li className="nav-items">Shop</li>
-            <li className="nav-items">Sign Up</li>
+            <a href="/signup" ><li className="nav-items">Sign Up</li></a>
             <li className="nav-items">Log In</li>
         </ul>
         )}
