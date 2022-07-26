@@ -3,8 +3,11 @@ import './Shop.css';
 
 function Shop() {
     return (
-        <div>
-            <h1>HELLO WORLD</h1>
+        <div class="search">
+            <form class="search-form">
+					<input type="text" placeholder="i.e. Nike"/>
+					<input type="submit" value="Search"/>
+				</form>
         </div>
     )
 }

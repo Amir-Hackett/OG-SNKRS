@@ -43,6 +43,20 @@ function renderShop() {
   setLoginSelected(false);
 }
 
+function renderSignUp() {
+  setShopSelected(false);
+  setHomeSelected(false);
+  setSignUpSelected(true);
+  setLoginSelected(false);
+}
+
+function renderLogin() {
+  setShopSelected(false);
+  setHomeSelected(false);
+  setSignUpSelected(false);
+  setLoginSelected(true);
+}
+
 return (
     <nav>
     {(toggleMenu || screenWidth > 500) && (
@@ -50,11 +64,11 @@ return (
             {/* <li className="nav-items">Search</li> */}
             <a onClick={renderHome} className="nav-items">Home</a>
             <a onClick={renderShop} className="nav-items">Shop</a>
-            <a className="nav-items">Sign Up</a>
-            <a className="nav-items">Log In</a>
+            <a onClick={renderSignUp} className="nav-items">Sign Up</a>
+            <a onClick={renderLogin} className="nav-items">Log In</a>
         </div>
         )}
-        <button onClick={toggleNav}className="btn">Button</button>
+        <button onClick={toggleNav}className="btn">Menu</button>
     </nav> 
 
 );

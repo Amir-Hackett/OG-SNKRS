@@ -11,6 +11,8 @@ import SavedShoes from './components/pages/SavedShoes';
 
 import Home from "./components/Home";
 import Shop from "./components/Shop"; 
+import SignUp from "./components/Signup";
+import Login from "./components/Login";
 
 const httpLink = createHttpLink({
   uri: '/graphql',
