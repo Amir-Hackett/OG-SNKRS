@@ -39,6 +39,8 @@ nav {
     color: white;
     font-size: 15px;
     background-color: #ff0117;
+    border: .5px solid black;
+    cursor: pointer;
 }
 
 /* media query for mobile phone screens */
