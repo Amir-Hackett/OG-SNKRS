@@ -33,19 +33,11 @@ const client = new ApolloClient({
 
 
 function App() {
-const [selectedNav, setSelectedNav] = useState('home');
-
-const renderPage = () => {
-  if(selectedNav == 'home') return <Home />;
-  if(selectedNav == 'shop') return <Shop />;
-};
-
   return (
 
     <div>
-       <Nav setSelectedNav={setSelectedNav} />
-       {/* <Home /> */}
-         {renderPage}
+       <Nav/>
+       <Home/>
     </div>
 
     
