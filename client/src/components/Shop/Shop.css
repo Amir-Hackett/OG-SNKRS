@@ -12,8 +12,9 @@
 
 .search input[type="text"] {
     border: 0px;
-    width: 300px;
-    padding: 10px 10px;
+    width: 500px;
+    padding: 15px 15px;
+    font-size: 20px;
 }
 
 .search input[type="text"]:focus {
@@ -26,7 +27,8 @@
     background-color: #ff0117;
     color: #fff;
     float: right;
-    padding: 10px;
+    font-size: 20px;
+    padding: 15px;
     margin: 0px 5px;
     border-radius-top-right: 5px;
     -moz-border-radius-top-right: 5px;
