@@ -1,9 +1,11 @@
 import React, {useState, useEffect } from "react";
 import './Nav.css'
 
-function Nav() {
+function Nav(props) {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const { setSelectedNav } = props;
+  
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
@@ -25,13 +27,13 @@ function Nav() {
 return (
     <nav>
     {(toggleMenu || screenWidth > 500) && (
-        <ul className="nav-list">
+        <div className="nav-list">
             {/* <li className="nav-items">Search</li> */}
-            <li className="nav-items">Home</li>
-            <li className="nav-items">Shop</li>
-            <li className="nav-items">Sign Up</li>
-            <li className="nav-items">Log In</li>
-        </ul>
+            <a onClick={()=>setSelectedNav('home')} className="nav-items">Home</a>
+            <a onClick={()=>setSelectedNav('shop')} className="nav-items">Shop</a>
+            <a className="nav-items">Sign Up</a>
+            <a className="nav-items">Log In</a>
+        </div>
         )}
         <button onClick={toggleNav}className="btn">Button</button>
     </nav> 
