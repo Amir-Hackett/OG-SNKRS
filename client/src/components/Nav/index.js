@@ -23,30 +23,35 @@ function Nav(props) {
   }, [])
 
   const {
+    setHomeSelected,
     setShopSelected,
     setSignUpSelected,
     setLoginSelected
 } = props
 
 function renderHome() {
+  setHomeSelected(true);
   setShopSelected(false);
   setSignUpSelected(false);
   setLoginSelected(false);
 }
 
 function renderShop() {
+  setHomeSelected(false);
   setShopSelected(true);
   setSignUpSelected(false);
   setLoginSelected(false);
 }
 
 function renderSignUp() {
+  setHomeSelected(false);
   setShopSelected(false);
   setSignUpSelected(true);
   setLoginSelected(false);
 }
 
 function renderLogin() {
+  setHomeSelected(false);
   setShopSelected(false);
   setSignUpSelected(false);
   setLoginSelected(true);

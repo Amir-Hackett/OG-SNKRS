@@ -35,29 +35,19 @@ const client = new ApolloClient({
 
 
 function App() {
+  const [homeSelected, setHomeSelected] = useState(false);
   const [shopSelected, setShopSelected] = useState(false);
   const [signUpSelected, setSignUpSelected] = useState(false);
   const [loginSelected, setLoginSelected] = useState(false);
 
   return (
     <>
-       <Nav setShopSelected={setShopSelected} setSignUpSelected={setSignUpSelected} setLoginSelected={setLoginSelected}/>
+       <Nav setHomeSelected={setHomeSelected} setShopSelected={setShopSelected} setSignUpSelected={setSignUpSelected} setLoginSelected={setLoginSelected}/>
        <div>
-        {!shopSelected ? (
-          <Home/>
-        ) : (
-          <Shop/>
-        )}
-        {/* {!signUpSelected ? (
-          <Home/>
-        ) : (
-          <SignUp/>
-        )} */}
-        {!loginSelected ? (
-          <Home/>
-        ) : (
-          <Login/>
-        )}
+        {!shopSelected && !signUpSelected && !loginSelected && <Home/>}
+        {shopSelected && <Shop/>}
+        {signUpSelected && <SignUp/>}
+        {loginSelected && <Login/>}
        </div>
     </>
 
