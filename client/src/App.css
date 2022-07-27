@@ -29,6 +29,7 @@ html {
 
 header p {
     font-size: 35px;
+    font-weight: lighter;
 }
 
 @media (prefers-reduced-motion: no-preference) {
