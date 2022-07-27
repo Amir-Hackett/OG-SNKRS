@@ -11,7 +11,7 @@ import SavedShoes from './components/pages/SavedShoes';
 
 import Home from "./components/Home";
 import Shop from "./components/Shop"; 
-import SignUp from "./components/SignUp";
+import Signup from "./components/Signup";
 import Login from "./components/Login";
 
 const httpLink = createHttpLink({
@@ -47,7 +47,7 @@ function App() {
        <div>
         {!shopSelected && !signUpSelected && !loginSelected && <Home/>}
         {shopSelected && <Shop/>}
-        {signUpSelected && <SignUp/>}
+        {signUpSelected && <Signup/>}
         {loginSelected && <Login/>}
        </div>
     </>
