@@ -50,6 +50,11 @@ function App() {
         ) : (
           <Shop/>
         )}
+        {!loginSelected ? (
+          <Home/>
+        ) : (
+          <Login/>
+        )}
        </div>
     </div>
 
