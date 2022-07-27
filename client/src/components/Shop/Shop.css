@@ -44,4 +44,8 @@
         width: 95%;
         margin: 0 auto;
     }
+
+    .search input[type="text"] {
+        width: 300px;
+    }
 }
