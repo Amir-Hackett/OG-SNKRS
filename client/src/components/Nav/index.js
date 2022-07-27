@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import './Nav.css'
 
 function Nav(props) {
@@ -23,7 +23,6 @@ function Nav(props) {
   }, [])
 
   const {
-    setHomeSelected,
     setShopSelected,
     setSignUpSelected,
     setLoginSelected
@@ -31,28 +30,24 @@ function Nav(props) {
 
 function renderHome() {
   setShopSelected(false);
-  setHomeSelected(true);
   setSignUpSelected(false);
   setLoginSelected(false);
 }
 
 function renderShop() {
   setShopSelected(true);
-  setHomeSelected(false);
   setSignUpSelected(false);
   setLoginSelected(false);
 }
 
 function renderSignUp() {
   setShopSelected(false);
-  setHomeSelected(false);
   setSignUpSelected(true);
   setLoginSelected(false);
 }
 
 function renderLogin() {
   setShopSelected(false);
-  setHomeSelected(false);
   setSignUpSelected(false);
   setLoginSelected(true);
 }
@@ -61,7 +56,6 @@ return (
     <nav>
     {(toggleMenu || screenWidth > 500) && (
         <div className="nav-list">
-            {/* <li className="nav-items">Search</li> */}
             <a onClick={renderHome} className="nav-items">Home</a>
             <a onClick={renderShop} className="nav-items">Shop</a>
             <a onClick={renderSignUp} className="nav-items">Sign Up</a>
