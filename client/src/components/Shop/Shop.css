@@ -56,12 +56,25 @@
     margin: 10px;
     height: 300px;
     width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-title {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .shop-btn {
@@ -78,16 +91,6 @@
     color: white;
     border: 1px solid black;
     padding: 5px;
-}
-
-.card-title {
-    text-align: center;
-    width: 250px;
-    margin: 0 auto;
-}
-
-.card-text {
-    text-align: center;
 }
 
 .card-box {

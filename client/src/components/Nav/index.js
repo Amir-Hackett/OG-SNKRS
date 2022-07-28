@@ -67,7 +67,7 @@ return (
             <a onClick={renderLogin} className="nav-items">Log In</a>
         </div>
         )}
-        <button onClick={toggleNav}className="btn">Menu</button>
+        <button onClick={toggleNav}className="btn"><i class="fa-solid fa-bars"></i></button>
     </nav> 
 
 );
