@@ -5,7 +5,8 @@ export default function Card(props) {
     return (
         <div className="container" >
             <div className="card-body">
-                <h4 className="card-title">{props.name}</h4>
+                <h3 className="card-title">{props.name}</h3>
+                <h3 className="card-title">{props.subname}</h3>
                 <div className="card-img">
                     <img src={props.img} alt="shoe-img" />
                 </div>

@@ -16,7 +16,7 @@ function Shop() {
             <div className="card-box">
                 {
                     shoes.map(shoe => {
-                        return (<Card name={shoe.name} img={shoe.img} release={shoe.release} retail={shoe.retail} goat={shoe.goat} stockx={shoe.stockx} stadium={shoe.stadium} flight={shoe.flight} />)
+                        return (<Card name={shoe.name} subname={shoe.subname} img={shoe.img} release={shoe.release} retail={shoe.retail} goat={shoe.goat} stockx={shoe.stockx} stadium={shoe.stadium} flight={shoe.flight} />)
                     })
                 }
             </div>

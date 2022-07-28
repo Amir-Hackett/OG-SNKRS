@@ -1,7 +1,8 @@
 export const shoes = [
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/075/326/086/original/854208_00.png.png?width=150",
-        name: "Travis Scott x Air Jordan 1 Low OG 'Reverse Mocha'",
+        name: "Travis Scott x Air Jordan 1 Low OG",
+        subname: "'Reverse Mocha'",
         release: "07-21-2022",
         retail: "$150",
         goat: "https://www.goat.com/sneakers/travis-scott-x-air-jordan-1-low-og-reverse-mocha-dm7866-162",
@@ -11,7 +12,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/071/707/578/original/931639_00.png.png?width=150",
-        name: "Nike Dunk Low 'Black Panda'",
+        name: "Nike Dunk Low",
+        subname: "'Black Panda'",
         release: "07-12-2022",
         retail: "$100",
         goat: "https://www.goat.com/sneakers/dunk-low-black-panda-dj6188-002",
@@ -21,7 +23,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/075/054/238/original/952291_00.png.png?width=150",
-        name: "Adidas Yeezy Slide 'Bone'",
+        name: "Adidas Yeezy Slide",
+        subname: "'Bone'",
         release: "07-25-2022",
         retail: "$70",
         goat: "https://www.goat.com/sneakers/yeezy-slides-bone-2022-re-release-fz5897",
@@ -31,7 +34,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/070/041/022/original/888097_00.png.png?width=150",
-        name: "Air Jordan 4 Retro 'Infrared'",
+        name: "Air Jordan 4 Retro",
+        subname: "'Infrared'",
         release: "06-15-2022",
         retail: "$200",
         goat: "https://www.goat.com/sneakers/air-jordan-4-retro-infrared-dh6927-061",
@@ -41,7 +45,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/072/630/042/original/936189_00.png.png?width=150",
-        name: "Nike Dunk Low SE Sun Club",
+        name: "Nike Dunk Low SE",
+        subname: "'Sun Club'",
         release: "07-07-2022",
         retail: "$110",
         goat: "https://www.goat.com/sneakers/wmns-dunk-low-se-sun-club-multi-color-dq0265-100",
@@ -51,7 +56,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/072/335/700/original/938834_00.png.png?width=150",
-        name: "Nike Dunk Low Retro Premium 'Graffiti'",
+        name: "Nike Dunk Low Retro Premium",
+        subname: "'Graffiti'",
         release: "07-28-2022",
         retail: "$110",
         goat: "https://www.goat.com/sneakers/dunk-low-retro-premium-graffiti-dm0108-002",
@@ -61,7 +67,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/251/318/original/935290_00.png.png?width=150",
-        name: "Nike Dunk High Retro 'Australia'",
+        name: "Nike Dunk High Retro",
+        subname: "'Australia'",
         release: "07-19-2022",
         retail: "$115",
         goat: "https://www.goat.com/sneakers/dunk-high-australia-dd1399-300",
@@ -71,7 +78,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/073/910/182/original/884783_00.png.png?width=150",
-        name: "Air Jordan 9 Retro 'Particle Grey'",
+        name: "Air Jordan 9 Retro",
+        subname: "'Particle Grey'",
         release: "06-21-2022",
         retail: "$200",
         goat: "https://www.goat.com/sneakers/air-jordan-9-retro-particle-grey-ct8019-060",
@@ -81,7 +89,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/072/682/079/original/895937_00.png.png?width=150",
-        name: "Air Jordan 1 Retro High OG 'Stage Haze'",
+        name: "Air Jordan 1 Retro High OG",
+        subname: "'Stage Haze'",
         release: "07-02-2022",
         retail: "$170",
         goat: "https://www.goat.com/sneakers/air-jordan-1-retro-high-og-stage-haze-555088-108",
@@ -91,7 +100,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/251/238/original/941119_00.png.png?width=150",
-        name: "Air Jordan 1 Retro Low OG 'Mystic Navy'",
+        name: "Air Jordan 1 Retro Low OG",
+        subname: "'Mystic Navy'",
         release: "06-30-2022",
         retail: "$130",
         goat: "https://www.goat.com/sneakers/air-jordan-1-retro-low-og-mystic-navy-cz0790-041",
@@ -101,7 +111,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/073/135/626/original/931694_00.png.png?width=150",
-        name: "Air Jordan 6 Retro 'Red Oreo'",
+        name: "Air Jordan 6 Retro",
+        subname: "'Red Oreo'",
         release: "06-25-2022",
         retail: "$200",
         goat: "https://www.goat.com/sneakers/air-jordan-6-retro-red-oreo-ct8529-162",
@@ -111,7 +122,8 @@ export const shoes = [
     },
     {
         img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/067/813/580/original/848249_00.png.png?width=150",
-        name: "Nike Dunk High Retro Next Nature 'Rattan'",
+        name: "Nike Dunk High Retro Next Nature",
+        subname: "'Rattan'",
         release: "07-06-2022",
         retail: "$130",
         goat: "https://www.goat.com/sneakers/dunk-high-retro-next-nature-toasty-rattan-dd3362-200",
@@ -119,4 +131,48 @@ export const shoes = [
         stadium: "https://www.stadiumgoods.com/en-us/shopping/dunk-high-next-nature-toasty-rattan-18002846?size=36&gclid=Cj0KCQjw54iXBhCXARIsADWpsG8i5Akq1_T3n0R9x9ggZlDQQK0hxcvvqpk6Xiudc3RxHCqp6KwzAXkaAhyMEALw_wcB",
         flight: "https://www.flightclub.com/dunk-high-retro-next-nature-toasty-rattan-dd3362-200?gclid=Cj0KCQjw54iXBhCXARIsADWpsG_dHFpGMXD36suBp8JCR4hkum7iExDitZnYYsoOmRJHeuW1A7nV7_gaArRIEALw_wcB"
     },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/075/157/768/original/934530_00.png.png?width=150",
+        name: "Nike Dunk Low",
+        subname: "'Teal Zeal'",
+        release: "07-13-2022",
+        retail: "$110",
+        goat: "https://www.goat.com/sneakers/wmns-dunk-low-miami-dolphins-dv2190-100",
+        stockx: "https://stockx.com/nike-dunk-low-white-turquoise-w?country=US&currencyCode=USD&size=7W&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-314644233035%3Apla-520322435277&g_merchantid=111829866&g_network=g&g_partition=520322435277&g_productchannel=online&g_productid=770d93d1-2e58-4a84-b3a2-427e0de49eed&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG_0tuOvXOmL79OW8Sxc21WO7YyQ3B_bFvMffv4r1lDzMc_iM4bPuskaAi4uEALw_wcB",
+        stadium: "https://www.stadiumgoods.com/en-us/shopping/w-dunk-low-18626183?size=26&gclid=Cj0KCQjw54iXBhCXARIsADWpsG_b4CUiR8L20YSDdxCjWBbltkULwBwBusYfv3Cv0IvyYGuW6lgx4vkaAmd8EALw_wcB",
+        flight: "https://www.flightclub.com/wmns-dunk-low-miami-dolphins-dv2190-100?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8F4wrdnzi8RBjQspfQBND5aXP7wW62A5_lO1cLiSx609RHmdKe0GAaArQOEALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/068/989/907/original/907752_00.png.png?width=150",
+        name: "NOCTA x Nike Hot Step Air Terra",
+        subname: "'Black'",
+        release: "03-03-2022",
+        retail: "$180",
+        goat: "https://www.goat.com/sneakers/nocta-x-hot-step-air-terra-black-dh4692-001",
+        stockx: "https://stockx.com/nike-hot-step-air-terra-drake-nocta-black?country=US&currencyCode=USD&size=4.5&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-314644233035%3Apla-424142581587&g_merchantid=111829866&g_network=g&g_partition=424142581587&g_productchannel=online&g_productid=92044de8-a981-4097-b323-f18d93b0d9a7&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG9M5swu10SxnoV9gYq_vBv9e7GFIbleMUe9Kxvv3c1YITluTD8fxUMaAtLbEALw_wcB",
+        stadium: "https://www.stadiumgoods.com/en-us/shopping/hot-step-air-terra-nocta-drake-triple-black-18131281?size=36&gclid=Cj0KCQjw54iXBhCXARIsADWpsG_B1Jd5VAA9BBtGtceUEPcPPMDx1Il95JtTCWrYmiNkhGTm0t66XesaAqEjEALw_wcB",
+        flight: "https://www.flightclub.com/nocta-x-hot-step-air-terra-black-dh4692-001?gclid=Cj0KCQjw54iXBhCXARIsADWpsG_mv437GF8Vaj-UP31g3q-x_BIF7DeBDI6hIxv5p_yxDV9qZRZKpuwaAgHkEALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/831/952/original/944580_00.png.png?width=150",
+        name: "Nike Dunk High",
+        subname: "'I Got Next'",
+        release: "07-06-2022",
+        retail: "$125",
+        goat: "https://www.goat.com/sneakers/dunk-high-i-got-next-dv2130-400",
+        stockx: "https://stockx.com/nike-dunk-high-i-got-next?country=US&currencyCode=USD&size=9&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-314644233035%3Apla-302855020304&g_merchantid=111829866&g_network=g&g_partition=302855020304&g_productchannel=online&g_productid=69443982-49b0-4c27-8cbc-f9c45f64b38a&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG9ybPB52mKeMXQOCpd_FirPNAIQ9bJzpdWajhXuYF8cyEPRfka2euQaAjobEALw_wcB",
+        stadium: "",
+        flight: "https://www.flightclub.com/dunk-high-i-got-next-dv2130-400?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8Yn7Ik6D5vLwMsbMm47hE_QF0MegVJV9mHSuICz6KhqIffrIkGPqAaAh2LEALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/222/579/original/DD1391_400.png.png?width=150",
+        name: "Nike Dunk Low",
+        subname: "'Valerian Blue'",
+        release: "06-28-2022",
+        retail: "$100",
+        goat: "https://www.goat.com/sneakers/dunk-low-usa-dd1391-400",
+        stockx: "https://stockx.com/nike-dunk-low-valerian-blue?country=US&currencyCode=USD&size=15&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-387614171748%3Apla-520322435277&g_merchantid=111829866&g_network=g&g_partition=520322435277&g_productchannel=online&g_productid=4d661837-ddff-4d4b-a042-acda57538342&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG-xReBgoHUJH7KqrfoEo4fyuj7l5MDl3D_igucUNpuFzdQ73q6TI-4aAgjlEALw_wcB",
+        stadium: "",
+        flight: "https://www.flightclub.com/dunk-low-usa-dd1391-400?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8938l8j-iCitLqihUQ_6cabk5kwowvvyKEOHRLvU2QcpgUb1NiL5UaAskuEALw_wcB"
+    }
 ]
