@@ -21,8 +21,6 @@ Future updates will include allowing users to:
 
 ## Preview
 ![Screenshot](./client/src/assets/images/og-snkrs-home.png)
-![Screenshot](./client/src/assets/images/og-snkrs-login.png)
-![Screenshot](./client/src/assets/images/og-snkrs-sign-up.png)
 ![Screenshot](./client/src/assets/images/og-snkrs-shop.png)
 
 ## License
