@@ -174,5 +174,49 @@ export const shoes = [
         stockx: "https://stockx.com/nike-dunk-low-valerian-blue?country=US&currencyCode=USD&size=15&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-387614171748%3Apla-520322435277&g_merchantid=111829866&g_network=g&g_partition=520322435277&g_productchannel=online&g_productid=4d661837-ddff-4d4b-a042-acda57538342&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG-xReBgoHUJH7KqrfoEo4fyuj7l5MDl3D_igucUNpuFzdQ73q6TI-4aAgjlEALw_wcB",
         stadium: "",
         flight: "https://www.flightclub.com/dunk-low-usa-dd1391-400?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8938l8j-iCitLqihUQ_6cabk5kwowvvyKEOHRLvU2QcpgUb1NiL5UaAskuEALw_wcB"
-    }
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/423/095/original/931089_00.png.png?width=150",
+        name: "Maison Château Rouge x Air Jordan 2",
+        subname: "'United Youth International'",
+        release: "$225",
+        retail: "06-24-2022",
+        goat: "https://www.goat.com/sneakers/maison-chateau-rouge-x-air-jordan-2-united-youth-international-do5254-180",
+        stockx: "https://stockx.com/air-jordan-2-retro-maison-chateau-rouge?country=US&currencyCode=USD&size=3.5&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-314644233035%3Apla-310804637732&g_merchantid=111829866&g_network=g&g_partition=310804637732&g_productchannel=online&g_productid=45ebd5d6-5fda-40e7-b3b9-84dda0889177&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG83HTb6xeu9pXuIh09zPcU40w_5CKaPkFr3RvRnhSmR0wX2FbexfJwaAs-wEALw_wcB",
+        stadium: "https://www.stadiumgoods.com/en-us/shopping/air-jordan-retro-2-maison-chateau-rouge-18647584?size=36&gclid=Cj0KCQjw54iXBhCXARIsADWpsG-6XsU2LWzZhUfFSle3GqEbuMJvW3mNrQ3JAvl6Iy7qiHMdEV5hvRQaAq5zEALw_wcB",
+        flight: "https://www.flightclub.com/maison-chateau-rouge-x-air-jordan-2-united-youth-international-do5254-180?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8z2wkUmd9XcvLEMuDunUR4RZ-VwfSH_epF0f6pBLo39M2ocj4uZgAaAhD9EALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/074/560/900/original/DM9130_001.png.png?width=150",
+        name: "Social Status x Nike Air Max Penny 1",
+        subname: "'Recess'",
+        release: "07-15-2022",
+        retail: "$190",
+        goat: "https://www.goat.com/sneakers/social-status-x-air-max-penny-1-recess-black-dm9130-001",
+        stockx: "https://stockx.com/nike-air-max-penny-1-social-status-black-varsity-roayal?country=US&currencyCode=USD&size=7.5&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-314644233035%3Apla-302855020304&g_merchantid=111829866&g_network=g&g_partition=302855020304&g_productchannel=online&g_productid=3dfc1653-abdc-439a-a8a0-312771e21030&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG9Tmyhr29N9WNd7SOI6G_brQcqGmGzTn4Tei9-cJUMlm2dXOC0tAQgaAiADEALw_wcB",
+        stadium: "",
+        flight: "https://www.flightclub.com/social-status-x-air-max-penny-1-recess-black-dm9130-001?gclid=Cj0KCQjw54iXBhCXARIsADWpsG_u-xnG8VzW1ZXmYKjTOXUh_f12dtZ7NXJI17EhU2EtLhWhZ3HYtfIaAuKBEALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/073/353/896/original/936422_00.png.png?width=150",
+        name: "Air Jordan 1 Retro Low OG",
+        subname: "'Bleached Coral'",
+        release: "07-02-2022",
+        retail: "$130",
+        goat: "https://www.goat.com/sneakers/air-jordan-1-retro-low-og-bleached-coral-cz0790-061",
+        stockx: "https://stockx.com/air-jordan-1-low-og-bleached-coral?country=US&currencyCode=USD&size=11&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-387614171748%3Apla-424142574707&g_merchantid=111829866&g_network=g&g_partition=424142574707&g_productchannel=online&g_productid=34ec1328-de83-43e6-a4e7-e4587dcd7877&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG8C8Q--Zu4tMFes9dLIOUfSNbEEcMy-pFv8-YUCQx9Nuqv9VMUZazoaAkgkEALw_wcB",
+        stadium: "https://www.stadiumgoods.com/en-us/shopping/air-jordan-1-low-og-bleached-coral-18555460?size=33&gclid=Cj0KCQjw54iXBhCXARIsADWpsG-5HeFNR_xeQdPQge2YSdugvS4xXhiYmVbciOyZmbvTZ4ComKlAC7gaAqfPEALw_wcB",
+        flight: "https://www.flightclub.com/air-jordan-1-retro-low-og-gs-bleached-coral-cz0858-061?gclid=Cj0KCQjw54iXBhCXARIsADWpsG8mCu90vrLQYxE275sEyZnCUuQmrJMlR0gTwoTsbu3RvrWxTsktDVMaAqNkEALw_wcB"
+    },
+    {
+        img: "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/073/122/403/original/948830_00.png.png?width=150",
+        name: "Teddy Santis x New Balance 990v2",
+        subname: "'Sea Salt'",
+        release: "05-24-2022",
+        retail: "$195",
+        goat: "https://www.goat.com/sneakers/teddy-santis-x-990v2-made-in-usa-sea-salt-m990ald2",
+        stockx: "https://stockx.com/new-balance-990v2-miusa-teddy-santis-sea-salt?country=US&currencyCode=USD&size=5&g_acctid=709-098-4271&g_adgroupid=50672857117&g_adid=244607812448&g_adtype=pla&g_campaign=OD+-+Segment+-+Sneakers+-+Adult+Sizes+-+%28US%29&g_campaignid=1032998786&g_ifcreative=&g_ifproduct=product&g_keyword=&g_keywordid=aud-387614171748%3Apla-300291974372&g_merchantid=111829866&g_network=g&g_partition=300291974372&g_productchannel=online&g_productid=de002b24-7a99-4678-a7fc-901159c3a6d6&gclsrc=aw.ds&utm_source=google&utm_medium=cpc&utm_campaign=OD-Segment-Sneakers-AdultSizes-%28US%29&utm_campaignid=1032998786&content=244607812448&keyword=&gclid=Cj0KCQjw54iXBhCXARIsADWpsG9DnBMHwQA9jEbGrQkIcuaE-0Dm_hQZHNK0yBjBL3BKdUB94C5FkisaAjGtEALw_wcB",
+        stadium: "https://www.stadiumgoods.com/en-us/shopping/990-v2-made-in-usa-teddy-santis-sea-salt-18555837?size=29&gclid=Cj0KCQjw54iXBhCXARIsADWpsG-ML1aNxunJ0Zfk_Ym6x1OxE31Ras6jJWQuOLmh2qIxfQvPEmL-730aAjKCEALw_wcB",
+        flight: "https://www.flightclub.com/teddy-santis-x-990v2-made-in-usa-sea-salt-m990ald2?gclid=Cj0KCQjw54iXBhCXARIsADWpsG_vreOUkqwWp6XnlN_TwdUDSanlUpab59_7ykkL4rQ6qun2MD3p848aAnlfEALw_wcB"
+    },
 ]
