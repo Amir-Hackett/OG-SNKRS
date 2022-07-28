@@ -44,7 +44,6 @@ const SearchShoes = () => {
 
       const shoeData = items.map((shoe) => ({
         shoeId: shoe.id,
-        authors: shoe.volumeInfo.authors || ['No author to display'],
         title: shoe.volumeInfo.title,
         description: shoe.volumeInfo.description,
         image: shoe.volumeInfo.imageLinks?.thumbnail || '',
