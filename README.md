@@ -10,7 +10,7 @@ Future updates will include allowing users to:
 - Search for and filter through specific sneakers based on brand, name, and/or retail price ranges
 - Sign up, login, and save their favorite sneakers to their OG-SNKRS wish list
 
-> Visit the deployed Heroku site [HERE]()
+> Visit the deployed OG-SNKRS site [HERE](https://og-snkrs.herokuapp.com/)
 
 ## Table of Contents
   - [Preview](#preview)
