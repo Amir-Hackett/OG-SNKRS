@@ -4,7 +4,7 @@
 
 ## Description
 
-This MERN stack web application utilizes HTML, CSS, JavaScript, MongoDB, Express, React, Node, GraphQL and Node Package Manager to build a sneaker platform where sneakerheads and shoe enthusiasts have the ability to view latest releases, compare prices, and choose the best resale site option to purchase from. 
+This interactive SPA MERN stack web application utilizes HTML, CSS, JavaScript, MongoDB, Express, React, Node, GraphQL and Node Package Manager to build a responsive sneaker platform where sneakerheads and shoe enthusiasts have the ability to view latest releases, compare prices, and choose the best resale site option to purchase from. 
 
 Future updates will include allowing users to:
 - Search for and filter through specific sneakers based on brand, name, and/or retail price ranges
