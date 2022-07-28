@@ -30,6 +30,10 @@ nav {
     color: white;
 }
 
+.nav-items:hover {
+    color: #ff0117;
+}
+
 .btn {
     display: none;
     position: absolute;
